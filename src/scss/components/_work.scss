@@ -1,0 +1,50 @@
+.work {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .head {
+    margin-bottom: 25px;
+    &__title {
+      margin-bottom: 10px;
+      font-size: 20px;
+
+      text-align: center;
+    }
+    &__subtitle {
+      font-size: 10px;
+      text-align: center;
+    }
+  }
+  .content {
+    width: 100%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__box {
+      width: 100%;
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &__item {
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__title {
+      margin: 15px;
+    }
+    &__subtitle {
+      width: 250px;
+      text-align: center;
+    }
+  }
+}
