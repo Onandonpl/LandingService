@@ -1,6 +1,5 @@
 node_modules
 .cache
 dist
-package-lock
 .env
 .env.local
